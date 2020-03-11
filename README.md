@@ -30,8 +30,8 @@ Usage
 
 Select the tab with your sorting method.
 Select the source and destination folders.
-You can find out the number and size of files in the source folder by clicking <Files info>.
-To start sorting click <Copy> or <Move>, according to your choice.
+You can find out the number and size of files in the source folder by clicking "Files info".
+To start sorting click "Copy" or "Move", according to your choice.
 If the file from the source folder already exists in the destination folder, it will be copied with the copy number name.
 Important:
  * Before sorting  make sure all files are closed in the folder you want to sort.
