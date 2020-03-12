@@ -121,6 +121,12 @@ class SortingFilesUtils(object):
     def sizevideo(self):
         return self.__sizesortingfiles(self.videofiles())
 
+    def sizearhive(self):
+        return self.__sizesortingfiles(self.arhivefiles())
+
+    def sizeprograms(self):
+        return self.__sizesortingfiles(self.programsfiles())
+
     def sizeothers(self):
         return self.__sizesortingfiles(self.othersfiles())
 

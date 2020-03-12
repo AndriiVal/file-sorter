@@ -155,7 +155,7 @@ class FileSortingUi(QMainWindow, Ui_Form):
                     self.textBrowser_20.setText("Run info, pleas wait...")
                     self.sortmyfiles.setHome(self.lineEdit.displayText())
                     info_text = ("Count files: " + str(len(self.sortmyfiles.allfiles())) + 
-                                 ",   Size: " + str(self.sortmyfiles.sizeall()/1024.0/1024) + " Mb")
+                                 ",   Size: " + str(self.sortmyfiles.sizeall()) + " bytes")
                     self.textBrowser_20.setText(info_text)
                     self.msgBox.setText(info_text)
                     self.msgBox.exec_()
@@ -176,7 +176,7 @@ class FileSortingUi(QMainWindow, Ui_Form):
                     self.textBrowser_20.setText("Run info, pleas wait...")
                     self.sortmyfiles.setHome(self.lineEdit_3.displayText())
                     info_text = ("Count files: " + str(len(self.sortmyfiles.allfiles())) +
-                                 ",   Size: " + str(self.sortmyfiles.sizeall()/1024.0/1024) + " Mb")
+                                 ",   Size: " + str(self.sortmyfiles.sizeall()) + " bytes")
                     self.textBrowser_20.setText(info_text)
                     self.msgBox.setText(info_text)
                     self.msgBox.exec_()
@@ -197,7 +197,7 @@ class FileSortingUi(QMainWindow, Ui_Form):
                     self.textBrowser_20.setText("Run info, pleas wait...")
                     self.sortmyfiles.setHome(self.lineEdit_19.displayText())
                     info_text = ("Count files: " + str(len(self.sortmyfiles.allfiles())) + 
-                                 ",   Size: " + str(self.sortmyfiles.sizeall()/1024.0/1024) + " Mb")
+                                 ",   Size: " + str(self.sortmyfiles.sizeall()) + " bytes")
                     self.textBrowser_20.setText(info_text)
                     self.msgBox.setText(info_text)
                     self.msgBox.exec_()
@@ -218,7 +218,7 @@ class FileSortingUi(QMainWindow, Ui_Form):
                     self.textBrowser_20.setText("Run info, pleas wait...")
                     self.sortmyfiles.setHome(self.lineEdit_21.displayText())
                     info_text = ("Count files: " + str(len(self.sortmyfiles.allfiles())) + 
-                                 ",   Size: " + str(self.sortmyfiles.sizeall()/1024.0/1024) + " Mb")
+                                 ",   Size: " + str(self.sortmyfiles.sizeall()) + " bytes")
                     self.textBrowser_20.setText(info_text)
                     self.msgBox.setText(info_text)
                     self.msgBox.exec_()
