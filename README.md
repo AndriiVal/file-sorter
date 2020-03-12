@@ -36,5 +36,5 @@ If the file from the source folder already exists in the destination folder, it 
 On Windows must be turn On notifications from apps and other senders.
 
 Important:
- * Before sorting  make sure all files are closed in the folder you want to sort.
+ * Before sorting  make sure all files are closed in the folder you want to sort
  * After start sorting don't do anything with the files, don't restart this tool and please wait for the system notification about complete
